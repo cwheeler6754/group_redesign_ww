@@ -1,0 +1,46 @@
+@import 'variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+  background: black;
+}
+
+header {
+  background: white;
+}
+
+main {
+  background: gray;
+}
+
+.nav {
+  font-size: larger;
+}
+
+h3,
+h5 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: larger;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+footer {
+  background: white;
+
+  ul {
+    li {
+      a {
+        color: $footerNav;
+      }
+    }
+  }
+}
+
