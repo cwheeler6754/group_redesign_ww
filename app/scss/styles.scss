@@ -2,8 +2,14 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+$background: #F1E4D6;
+$mustard: #FFDB58;
+$darkred: #931009;
+$brownorange: #C48D54;
+$green: #5D814C;
+
 body {
-  background: black;
+  background: $background;
 }
 
 header {
@@ -11,11 +17,18 @@ header {
 }
 
 main {
-  background: gray;
+  background: $brownorange;
 }
 
 .nav {
   font-size: larger;
+  background: $darkred;
+
+  .nav-item {
+    .nav-link:hover {
+      color: $mustard;
+    }
+  }
 }
 
 h3,
@@ -32,15 +45,21 @@ p {
   margin: auto;
 }
 
+.progress-bar {
+  background: $darkred;
+}
+
 footer {
-  background: white;
+  background: $darkred;
+  color: white;
 
   ul {
+    background: $darkred;
+
     li {
-      a {
-        color: $footerNav;
+      a:hover {
+        color: $mustard;
       }
     }
   }
 }
-
