@@ -7212,6 +7212,12 @@ p {
 .carousel-inner img {
   margin: auto; }
 
+.form-group {
+  background: #FFDB58; }
+
+.form-label {
+  color: #931009; }
+
 .progress-bar {
   background: #931009; }
 
