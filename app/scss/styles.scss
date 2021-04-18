@@ -7,13 +7,14 @@ $mustard: #FFDB58;
 $darkred: #931009;
 $brownorange: #C48D54;
 $green: #5D814C;
+$white: #ffffff;
 
 body {
   background: $background;
 }
 
 header {
-  background: white;
+  background: $white;
 }
 
 main {
@@ -33,11 +34,11 @@ main {
 
 h3,
 h5 {
-  color: white;
+  color: $white;
 }
 
 p {
-  color: white;
+  color: $white;
   font-size: larger;
 }
 
@@ -59,7 +60,7 @@ p {
 
 footer {
   background: $darkred;
-  color: white;
+  color: $white;
 
   ul {
     background: $darkred;

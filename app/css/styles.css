@@ -7190,7 +7190,7 @@ body {
   background: #F1E4D6; }
 
 header {
-  background: white; }
+  background: #ffffff; }
 
 main {
   background: #C48D54; }
@@ -7203,10 +7203,10 @@ main {
 
 h3,
 h5 {
-  color: white; }
+  color: #ffffff; }
 
 p {
-  color: white;
+  color: #ffffff;
   font-size: larger; }
 
 .carousel-inner img {
@@ -7223,7 +7223,7 @@ p {
 
 footer {
   background: #931009;
-  color: white; }
+  color: #ffffff; }
   footer ul {
     background: #931009; }
     footer ul li a:hover {
