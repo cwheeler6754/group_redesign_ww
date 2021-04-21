@@ -2,6 +2,9 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+
+$ww_char-brown: #40221D;
+
 body {
   background: black;
 }
@@ -16,6 +19,32 @@ main {
 
 .nav {
   font-size: larger;
+}
+
+.start-welcoming {
+  border-bottom: 7px solid $ww_char-brown;
+  padding-bottom: 3em;
+}
+
+.hotdog-welcome {
+  width: 25%;
+  height: auto;
+}
+
+.welcoming {
+  display: inline-block;
+  color: $ww_char-brown;
+  padding: 4em;
+}
+
+.welcoming-message {
+  margin-left: 33%;
+}
+
+.specials {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em; 
 }
 
 h3,
@@ -43,4 +72,3 @@ footer {
     }
   }
 }
-
