@@ -2,44 +2,72 @@
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+$background: #F1E4D6;
+$mustard: #FFDB58;
+$darkred: #931009;
+$brownorange: #C48D54;
+$green: #5D814C;
+$white: #ffffff;
+
 body {
-  background: black;
+  background: $background;
 }
 
 header {
-  background: white;
+  background: $white;
 }
 
 main {
-  background: gray;
+  background: $brownorange;
 }
 
 .nav {
   font-size: larger;
+  background: $darkred !important;
+
+    .nav-item {
+    .nav-link:hover {
+      color: $mustard;
+    }
+  }
 }
 
 h3,
 h5 {
-  color: white;
+  color: $white;
 }
 
 p {
-  color: white;
+  color: $white;
   font-size: larger;
 }
-
 
 .carousel-inner img {
   margin: auto;
 }
 
+.form-group {
+  background: $mustard;
+}
+
+.form-label {
+  color: $darkred;
+}
+
+.progress-bar {
+  background: $darkred;
+}
+
 footer {
-  background: white;
+  background: $darkred;
+  color: $white;
 
   ul {
+    background: $darkred;
+
     li {
-      a {
-        color: $footerNav;
+      a:hover {
+        color: $mustard;
       }
     }
   }
@@ -53,31 +81,29 @@ footer {
                 font-size: 20px;
                 padding: 5%;
 }
-/*-------------use nesting of the class .product to call other classes within------------*/
+
 .product {
-
-
    .price {
-                    float: right;
-    } }
-h2 {
-  color: $ww_green;
-}
-h3 {
-  padding-top:2%;
-  color:$ww_red;
+               float: right;
+          }
+        }
 
+h2 {
+              color: $green;
 }
-span {
-  color:$ww_orange;
+
+h3 {
+             padding-top:2%;
+             color:$darkred;
 }
+
 .dropdown-item{
-  color:$ww_orange;
-  font-weight: bold;
-  border-bottom: 1px dashed rgb(95, 117, 117);
+          font-weight: bold;
+          border-bottom: 1px dashed rgb(95, 117, 117);
 }
+
 .dropdown-item:hover{
-  background-color: $ww_mustard;
+          background-color: $mustard;
 }
 
 /*----------------- Media Querey for phone size screen ----------------- */
@@ -86,7 +112,4 @@ span {
   .dropdown-item {
                    width: 40%;
                }
-.sodaList{
-  font-size:12px;
-}
 }
