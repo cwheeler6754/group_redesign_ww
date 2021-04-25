@@ -7198,22 +7198,6 @@ main {
 .nav {
   font-size: larger; }
 
-.start-welcoming {
-  border-bottom: 7px solid #40221D;
-  padding-bottom: 3em; }
-
-.hotdog-welcome {
-  width: 25%;
-  height: auto; }
-
-.welcoming {
-  display: inline-block;
-  color: #40221D;
-  padding: 4em; }
-
-.welcoming-message {
-  margin-left: 33%; }
-
 .specials {
   text-align: center;
   padding-top: 1em;
@@ -7224,8 +7208,8 @@ h5 {
   color: white; }
 
 p {
-  color: white;
-  font-size: larger; }
+  color: #40221D;
+  font-size: 130%; }
 
 .carousel-inner img {
   margin: auto; }
