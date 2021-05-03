@@ -48,6 +48,7 @@ p {
   font-size: 130%;
 }
 
+
 .carousel-inner img {
   margin: auto;
 }
@@ -75,3 +76,51 @@ footer {
     }
   }
 }
+
+/*-----------------------Menu Page-------------------------------------------*/
+
+.productList {
+                width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+                padding: 5%;
+}
+/*-------------use nesting of the class .product to call other classes within------------*/
+.product {
+
+
+   .price {
+                    float: right;
+    } }
+h2 {
+  color: $ww_green;
+}
+h3 {
+  padding-top:2%;
+  color:$ww_red;
+
+}
+span {
+  color:$ww_orange;
+}
+.dropdown-item{
+  color:$ww_orange;
+  font-weight: bold;
+  border-bottom: 1px dashed rgb(95, 117, 117);
+}
+.dropdown-item:hover{
+  background-color: $ww_mustard;
+}
+
+/*----------------- Media Querey for phone size screen ----------------- */
+
+@media screen and (max-width: 479px) {
+  .dropdown-item {
+                   width: 40%;
+               }
+.sodaList{
+  font-size:12px;
+}
+}
+

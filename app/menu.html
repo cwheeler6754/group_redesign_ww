@@ -7,7 +7,7 @@
   <title>Weiner Works | Home</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
+<!-----need to add grid system * possible display of pics in aside-->
 <body>
   <header>
     <div class="text-center">
@@ -21,8 +21,11 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Hot Dogs</a>
-          <a class="dropdown-item" href="#">Beer</a>
+          <a class="dropdown-item" href="#foodMenu">Hot Dogs</a>
+          <a class="dropdown-item" href="#beerMenu">Beer</a>
+          <a class="dropdown-item" href="#burgersMenu">Burgers</a>
+          <a class="dropdown-item" href="#sidesMenu">Sides</a>
+          <a class="dropdown-item" href="#drinksMenu">Drinks</a>
         </div>
       </li>
       <li class="nav-item">
@@ -35,6 +38,145 @@
   </header>
 
   <main class="container p-4">
+    <section class="productList container">
+        <a id="beerMenu"><h2>Beer Menu</h2></a>
+        <h3>Ale</h3>
+        <div class="product">
+          <span class="dropdown-item ">Brown Ale<span class="price">$7</span></a>
+        </div>
+        <div class="product ">
+          <span class="dropdown-item ">Blonde Ale<span class="price">$7</span></a>
+        </div>
+        <div class="product">
+          <span class="dropdown-item">Pale Ale<span class="price">$5</span></a>
+        </div>
+        <h3>Porter</h3>
+        <div class="product">
+          <span class="dropdown-item">Anchor Porter<span class="price">$6</span></a>
+        </div>
+        <div class="product">
+          <span class="dropdown-item">Pilsner<span class="price">$4</span></span>
+        </div>
+        <div class="product">
+          <span class="dropdown-item">Gose<span class="price">$5</span></span>
+        </div>
+        <h3>Stout</h3>
+        <div class="product">
+          <span class="dropdown-item">Praire Bomb<span class="price">$6</span></span>
+        </div>
+        <div class="product">
+          <span class=" dropdown-item">Guinness<span class="price">$5</span></span>
+        </div>
+        <div class="product">
+          <span class=" dropdown-item">Goose Island<span class="price">$7</span></span>
+        </div>
+        <h3>Lager</h3>
+        <div class="product">
+          <span class="dropdown-item">Peroni<span class="price">$6</span></span>
+        </div>
+        <div class="product">
+          <span class="dropdown-item">Pilsner<span class="price">$5</span></span>
+        </div>
+        <div class="product">
+          <span class="dropdown-item">Shiner Bock<span class="price">$6</span></span>
+        </div>
+        <div class="product">
+          <span class="dropdown-item">Helles<span class="price">$5</span></span>
+        </div>
+        <div class="product">
+          <span class=" dropdown-item">Scwarzbier<span class="price">$6</span></span>
+        </div>
+      </section>
+      <section class="productList container">
+      <a id="foodMenu"><h2>Food Menu</h2></a>
+      <h3>Hot Dogs</h3>
+      <div class="product">
+        <span class="dropdown-item">Hot Dog<span class="price">$3</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item" >Chili Cheese Dog<span class="price">$4.50</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item">Beer Hotdog<span class="price">$4.50</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item" >Polish Dog<span class="price">$4</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item">Inch Dog<span class="price">$3</span></span>
+      </div>
+      <div class="product">
+        <span class=" dropdown-item" >Reg Cabbage<span class="price">$3</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item">Kraut Dog<span class="price">$5.35</span></span>
+      </div>
+      <div class="product">
+        <span class=" dropdown-item" >Kraut & Cheese<span class="price">$6.35</span></span>
+      </div>
+      <div class="product">
+        <span class=" dropdown-item">Grilled Hot Dog<span class="price">$3</span></span>
+      </div>
+      <div class="product">
+        <span class=" dropdown-item" >Mustard & Relish<span class="price">$4</span></span>
+      </div>
+      <div class="product">
+        <span class=" dropdown-item">Ketchup<span class="price">$4</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item" >Corn Dog<span class="price">$3.50</span></span>
+      </div>
+
+      <a id="sidesMenu"><h3>Sides</h3></a>
+      <div class="product">
+        <span class="dropdown-item">Fries<span class="price">$4</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item" >Chips<span class="price">$3</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item">Coleslaw<span class="price">$3</span></span>
+      </div>
+      <div class="product">
+        <span class="dropdown-item" >Dipping Vegetables<span class="price">$5</span></span>
+      </div>
+
+    <a id="burgersMenu"><h3>Burgers</h3></a>
+    <div class="product">
+      <span class="dropdown-item">Single Patty<span class="price">$6.05</span></span>
+    </div>
+    <div class="product">
+      <span class="dropdown-item" >Double Patty<span class="price">$7.95</span></span>
+    </div>
+    <div class="product">
+      <span class="dropdown-item">Jalepeno Cheddar<span class="price">$6.95</span></span>
+    </div>
+    <div class="product">
+      <span class="dropdown-item" >Buffalo Burger<span class="price">$7.95</span></span>
+    </div>
+
+    <a id="drinksMenu"><h3>Drinks</h3></a>
+    <div class="product">
+      <span class=" dropdown-item" >Lemonade<span class="price">$2-Sm, $3.50-Lg</span></span>
+    </div>
+    <div class="product">
+      <span class="dropdown-item">Tea<span class="price">$2-Sm, $3.50-Lg</span></span>
+    </div>
+    <div class="dropdown-item">
+      <span>Soda:<span class="price">$2-Sm, $3.50-Lg</span></span><br>
+      <span class=sodaList> Mtn. Dew, Sprite, Root Beer, Mr. Pibb</span>
+
+    </div>
+
+
+    <h3>Specials</h3>
+    <div class="product">
+      <span class="name  dropdown-item">German Dog<span class="price">$5.95</span></span>
+    </div>
+    <div class="product">
+      <span class="name  dropdown-item">Hot Diggidy Dog<span class="price">$5.95</span></span>
+    </div>
+   </section>
 
   </main>
 
@@ -47,9 +189,12 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item active" href="#">Hot Dogs</a>
-          <a class="dropdown-item" href="#">Beer</a>
-        </div>
+            <a class="dropdown-item" href="#foodMenu">Hot Dogs</a>
+            <a class="dropdown-item" href="#beerMenu">Beer</a>
+            <a class="dropdown-item" href="#burgersMenu">Burgers</a>
+            <a class="dropdown-item" href="#sidesMenu">Sides</a>
+            <a class="dropdown-item" href="#drinksMenu">Drinks</a>
+          </div>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="#">Contact</a>
