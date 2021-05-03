@@ -1,9 +1,18 @@
 @import 'variables';
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+$ww_goldenrod: #DAA520;
+$ww_redwood: #995F4C;
+$ww_ketchup: #CC2522;
+$ww_purple-lightning: #c005f2;
+$ww_red_condiment: #751600;
+$ww_pink: #F7BE9F;
+$ww_winter_blue: #253960;
 
+$ww_char-brown: #40221D;
+$css-padding: 5em;
 body {
-  background: black;
+  background: #F1E4D6;
 }
 
 header {
@@ -11,28 +20,51 @@ header {
 }
 
 main {
-  background: gray;
+  background: #C48D54;
 }
 
 .nav {
   font-size: larger;
 }
 
+a, span {
+  font-size: 200%;
+}
+.specials {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.loaded-menu {
+  color: #CC2522;
+}
 h3,
 h5 {
   color: white;
 }
 
 p {
-  color: white;
-  font-size: larger;
+  color: $ww_char-brown;
+  font-size: 130%;
 }
 
 
 .carousel-inner img {
   margin: auto;
 }
-
+.carousel-item {
+  padding-bottom: calc(2em + #{$css-padding});
+}
+.carousel-container {
+  margin-top: 5em;
+}
+.centered {
+  margin: 0 auto;
+}
+.hotdog-photo-container {
+  background-color: goldenrod;
+  color: white;
+}
 footer {
   background: white;
 
@@ -44,6 +76,7 @@ footer {
     }
   }
 }
+
 /*-----------------------Menu Page-------------------------------------------*/
 
 .productList {
@@ -90,3 +123,4 @@ span {
   font-size:12px;
 }
 }
+
