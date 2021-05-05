@@ -7190,13 +7190,16 @@ body {
   background: #F1E4D6; }
 
 header {
-  background: white; }
+  background: #ffffff; }
 
 main {
   background: #C48D54; }
 
 .nav {
-  font-size: larger; }
+  font-size: larger;
+  background: #931009; }
+  .nav .nav-item .nav-link:hover {
+    color: #FFDB58; }
 
 a, span {
   font-size: 200%; }
@@ -7211,7 +7214,7 @@ a, span {
 
 h3,
 h5 {
-  color: white; }
+  color: #ffffff; }
 
 p {
   color: #40221D;
@@ -7219,6 +7222,15 @@ p {
 
 .carousel-inner img {
   margin: auto; }
+
+.form-group {
+  background: #FFDB58; }
+
+.form-label {
+  color: #931009; }
+
+.progress-bar {
+  background: #931009; }
 
 .carousel-item {
   padding-bottom: calc(2em + 5em); }
@@ -7234,6 +7246,9 @@ p {
   color: white; }
 
 footer {
-  background: white; }
-  footer ul li a {
-    color: black; }
+  background: #931009;
+  color: #ffffff; }
+  footer ul {
+    background: #931009; }
+    footer ul li a:hover {
+      color: #FFDB58; }

@@ -8,15 +8,21 @@ $ww_purple-lightning: #c005f2;
 $ww_red_condiment: #751600;
 $ww_pink: #F7BE9F;
 $ww_winter_blue: #253960;
+$background: #F1E4D6;
+$mustard: #FFDB58;
+$darkred: #931009;
+$brownorange: #C48D54;
+$green: #5D814C;
+$white: #ffffff;
 
+body {
+  background: $background;
 $ww_char-brown: #40221D;
 $css-padding: 5em;
-body {
-  background: #F1E4D6;
 }
 
 header {
-  background: white;
+  background: $white;
 }
 
 main {
@@ -25,6 +31,13 @@ main {
 
 .nav {
   font-size: larger;
+  background: $darkred;
+
+  .nav-item {
+    .nav-link:hover {
+      color: $mustard;
+    }
+  }
 }
 
 a, span {
@@ -40,7 +53,7 @@ a, span {
 }
 h3,
 h5 {
-  color: white;
+  color: $white;
 }
 
 p {
@@ -52,6 +65,19 @@ p {
 .carousel-inner img {
   margin: auto;
 }
+
+.form-group {
+  background: $mustard;
+}
+
+.form-label {
+  color: $darkred;
+}
+
+.progress-bar {
+  background: $darkred;
+}
+
 .carousel-item {
   padding-bottom: calc(2em + #{$css-padding});
 }
@@ -65,13 +91,17 @@ p {
   background-color: goldenrod;
   color: white;
 }
+
 footer {
-  background: white;
+  background: $darkred;
+  color: $white;
 
   ul {
+    background: $darkred;
+
     li {
-      a {
-        color: $footerNav;
+      a:hover {
+        color: $mustard;
       }
     }
   }
@@ -123,4 +153,3 @@ span {
   font-size:12px;
 }
 }
-
