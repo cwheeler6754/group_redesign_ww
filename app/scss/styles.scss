@@ -1,7 +1,13 @@
 @import 'variables';
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-
+$ww_goldenrod: #DAA520;
+$ww_redwood: #995F4C;
+$ww_ketchup: #CC2522;
+$ww_purple-lightning: #c005f2;
+$ww_red_condiment: #751600;
+$ww_pink: #F7BE9F;
+$ww_winter_blue: #253960;
 $background: #F1E4D6;
 $mustard: #FFDB58;
 $darkred: #931009;
@@ -11,6 +17,8 @@ $white: #ffffff;
 
 body {
   background: $background;
+$ww_char-brown: #40221D;
+$css-padding: 5em;
 }
 
 header {
@@ -18,7 +26,7 @@ header {
 }
 
 main {
-  background: $brownorange;
+  background: #C48D54;
 }
 
 .nav {
@@ -32,15 +40,27 @@ main {
   }
 }
 
+a, span {
+  font-size: 200%;
+}
+.specials {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+.loaded-menu {
+  color: #CC2522;
+}
 h3,
 h5 {
   color: $white;
 }
 
 p {
-  color: $white;
-  font-size: larger;
+  color: $ww_char-brown;
+  font-size: 130%;
 }
+
 
 .carousel-inner img {
   margin: auto;
@@ -58,6 +78,20 @@ p {
   background: $darkred;
 }
 
+.carousel-item {
+  padding-bottom: calc(2em + #{$css-padding});
+}
+.carousel-container {
+  margin-top: 5em;
+}
+.centered {
+  margin: 0 auto;
+}
+.hotdog-photo-container {
+  background-color: goldenrod;
+  color: white;
+}
+
 footer {
   background: $darkred;
   color: $white;
@@ -71,4 +105,51 @@ footer {
       }
     }
   }
+}
+
+/*-----------------------Menu Page-------------------------------------------*/
+
+.productList {
+                width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+                padding: 5%;
+}
+/*-------------use nesting of the class .product to call other classes within------------*/
+.product {
+
+
+   .price {
+                    float: right;
+    } }
+h2 {
+  color: $ww_green;
+}
+h3 {
+  padding-top:2%;
+  color:$ww_red;
+
+}
+span {
+  color:$ww_orange;
+}
+.dropdown-item{
+  color:$ww_orange;
+  font-weight: bold;
+  border-bottom: 1px dashed rgb(95, 117, 117);
+}
+.dropdown-item:hover{
+  background-color: $ww_mustard;
+}
+
+/*----------------- Media Querey for phone size screen ----------------- */
+
+@media screen and (max-width: 479px) {
+  .dropdown-item {
+                   width: 40%;
+               }
+.sodaList{
+  font-size:12px;
+}
 }
