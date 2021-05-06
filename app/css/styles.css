@@ -1,3 +1,4 @@
+/*-------------SASS Variables for Menu------------*/
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7197,6 +7198,11 @@ main {
 
 .nav {
   font-size: larger;
+
+  background: #931009 !important; }
+  .nav .nav-item .nav-link:hover {
+    color: #FFDB58; }
+
   background: #931009; }
   .nav .nav-item .nav-link:hover {
     color: #FFDB58; }
@@ -7212,13 +7218,19 @@ a, span {
 .loaded-menu {
   color: #CC2522; }
 
+
 h3,
 h5 {
   color: #ffffff; }
 
 p {
+
+  color: #ffffff;
+  font-size: larger; }
+
   color: #40221D;
   font-size: 130%; }
+
 
 .carousel-inner img {
   margin: auto; }
@@ -7231,6 +7243,7 @@ p {
 
 .progress-bar {
   background: #931009; }
+
 
 .carousel-item {
   padding-bottom: calc(2em + 5em); }
@@ -7245,6 +7258,7 @@ p {
   background-color: goldenrod;
   color: white; }
 
+
 footer {
   background: #931009;
   color: #ffffff; }
@@ -7252,3 +7266,35 @@ footer {
     background: #931009; }
     footer ul li a:hover {
       color: #FFDB58; }
+
+
+/*-----------------------Menu Page-------------------------------------------*/
+.productList {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  padding: 5%; }
+
+.product .price {
+  float: right; }
+
+h2 {
+  color: #5D814C; }
+
+h3 {
+  padding-top: 2%;
+  color: #931009; }
+
+.dropdown-item {
+  font-weight: bold;
+  border-bottom: 1px dashed #5f7575; }
+
+.dropdown-item:hover {
+  background-color: #FFDB58; }
+
+/*----------------- Media Querey for phone size screen ----------------- */
+@media screen  (max-width: 479px) {
+  .dropdown-item {
+    width: 40%; } }
+

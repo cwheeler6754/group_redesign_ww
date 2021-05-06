@@ -18,6 +18,7 @@
       <li class="nav-item">
         <a class="nav-link active" href="index.html">Home</a>
       </li>
+      <!----bootstrap dropdown menu element--->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="menu.html" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
         <div class="dropdown-menu">
@@ -38,6 +39,25 @@
   </header>
 
   <main class="container p-4">
+    <!----bootstrap jumbotron element--->
+    <article class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4"> Check out our $7.95 Specials! </h1>
+        <div class="row">
+         <hr class="my-4">
+        <div class="col">
+          <h3>German Dog </h3>
+            <span> Served with a beer, fries, and sauerkraut.</span>
+          <h3>Hot Diggidy Dog  </h3>
+            <span> Served with a beer, fries, and beans.</span>
+          </div>
+        <div class="col">
+          <img src="media/cupOfBeer.jpg" class="img-fluid float-right" alt="Cup of Beer">
+        </div>
+      </div>
+  </div>
+    </article>
+    <!---bootstrap element used to change background color of item on hover---->
     <section class="productList container">
         <a id="beerMenu"><h2>Beer Menu</h2></a>
         <h3>Ale</h3>
@@ -162,22 +182,11 @@
     <div class="product">
       <span class="dropdown-item">Tea<span class="price">$2-Sm, $3.50-Lg</span></span>
     </div>
-    <div class="dropdown-item">
-      <span>Soda:<span class="price">$2-Sm, $3.50-Lg</span></span><br>
-      <span class=sodaList> Mtn. Dew, Sprite, Root Beer, Mr. Pibb</span>
-
-    </div>
-
-
-    <h3>Specials</h3>
     <div class="product">
-      <span class="name  dropdown-item">German Dog<span class="price">$5.95</span></span>
-    </div>
-    <div class="product">
-      <span class="name  dropdown-item">Hot Diggidy Dog<span class="price">$5.95</span></span>
+      <span class="dropdown-item">Soda:<span class="price">$2-Sm, $3.50-Lg</span></span><br>
+      <p class="text-muted"> Mtn. Dew, Sprite, Root Beer, Mr. Pibb</p>
     </div>
    </section>
-
   </main>
 
   <footer class="p-2 text-center">
@@ -186,8 +195,20 @@
       <li class="nav-item">
         <a class="nav-link active" href="index.html">Home</a>
       </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="menu.html" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#foodMenu">Hot Dogs</a>
+            <a class="dropdown-item" href="#beerMenu">Beer</a>
+            <a class="dropdown-item" href="#burgersMenu">Burgers</a>
+            <a class="dropdown-item" href="#sidesMenu">Sides</a>
+            <a class="dropdown-item" href="#drinksMenu">Drinks</a>
+          </div>
+
       <li class="nav-item">
         <a class="nav-link active" href="menu.html">Menu</a>
+
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="contact.html">Contact</a>
