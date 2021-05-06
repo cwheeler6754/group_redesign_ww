@@ -7198,17 +7198,39 @@ main {
 
 .nav {
   font-size: larger;
+
   background: #931009 !important; }
   .nav .nav-item .nav-link:hover {
     color: #FFDB58; }
+
+  background: #931009; }
+  .nav .nav-item .nav-link:hover {
+    color: #FFDB58; }
+
+a, span {
+  font-size: 200%; }
+
+.specials {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em; }
+
+.loaded-menu {
+  color: #CC2522; }
+
 
 h3,
 h5 {
   color: #ffffff; }
 
 p {
+
   color: #ffffff;
   font-size: larger; }
+
+  color: #40221D;
+  font-size: 130%; }
+
 
 .carousel-inner img {
   margin: auto; }
@@ -7222,6 +7244,21 @@ p {
 .progress-bar {
   background: #931009; }
 
+
+.carousel-item {
+  padding-bottom: calc(2em + 5em); }
+
+.carousel-container {
+  margin-top: 5em; }
+
+.centered {
+  margin: 0 auto; }
+
+.hotdog-photo-container {
+  background-color: goldenrod;
+  color: white; }
+
+
 footer {
   background: #931009;
   color: #ffffff; }
@@ -7229,6 +7266,7 @@ footer {
     background: #931009; }
     footer ul li a:hover {
       color: #FFDB58; }
+
 
 /*-----------------------Menu Page-------------------------------------------*/
 .productList {
@@ -7256,6 +7294,7 @@ h3 {
   background-color: #FFDB58; }
 
 /*----------------- Media Querey for phone size screen ----------------- */
-@media screen and (max-width: 479px) {
+@media screen  (max-width: 479px) {
   .dropdown-item {
     width: 40%; } }
+
