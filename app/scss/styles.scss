@@ -23,6 +23,8 @@ $brownorange: #C48D54;
 $green: #5D814C;
 $white: #ffffff;
 $ww_darkgreen: #00782C;
+$ww_table_top_red: #B83B4A;
+$ww_relish_green: #0AAC0C;
 
 body {
   background: $background;
@@ -58,6 +60,20 @@ main {
 }
 .welcome-header {
   color: $ww_darkgreen;
+}
+.menu {
+  background-color: $mustard;
+  font-size: 180%;
+  color: $ww_char-brown;
+}
+.menu:hover {
+  background-color: $ww_table_top_red;
+}
+.available {
+  color: $ww_darkgreen;
+}
+.afforability {
+  text-align: center; 
 }
 a, span {
   font-size: 200%;
