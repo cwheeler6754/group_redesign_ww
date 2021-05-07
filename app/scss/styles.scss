@@ -1,37 +1,86 @@
 @import 'variables';
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-
+$ww_goldenrod: #DAA520;
+$ww_redwood: #995F4C;
+$ww_ketchup: #CC2522;
+$ww_purple-lightning: #c005f2;
+$ww_red_condiment: #751600;
+$ww_pink: #F7BE9F;
+$ww_winter_blue: #253960;
 $background: #F1E4D6;
 $mustard: #FFDB58;
 $darkred: #931009;
 $brownorange: #C48D54;
 $green: #5D814C;
 $white: #ffffff;
+$ww_char-brown: #40221D;
+$css-padding: 5em;
+$background: #F1E4D6;
+$mustard: #FFDB58;
+$darkred: #931009;
+$brownorange: #C48D54;
+$green: #5D814C;
+$white: #ffffff;
+$ww_darkgreen: #00782C;
+$ww_table_top_red: #B83B4A;
+$ww_relish_green: #0AAC0C;
 
 body {
   background: $background;
 }
-
 header {
   background: $white;
 }
-
 main {
   background: $brownorange;
 }
 
 .nav {
   font-size: larger;
+  background: $darkred !important;
+}
+.nav-item {
   background: $darkred;
-
-  .nav-item {
-    .nav-link:hover {
-      color: $mustard;
-    }
-  }
 }
 
+.nav-link:hover {
+  background-color: $mustard;
+  color: $ww_char-brown;
+}
+.specials {
+  color: $ww_darkgreen;
+  font-size: 300%;
+  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.order-ahead {
+  color: $ww_char-brown;
+}
+.welcome-header {
+  color: $ww_darkgreen;
+}
+.menu {
+  background-color: $mustard;
+  font-size: 180%;
+  color: $ww_char-brown;
+}
+.menu:hover {
+  background-color: $ww_table_top_red;
+}
+.available {
+  color: $ww_darkgreen;
+}
+.afforability {
+  text-align: center; 
+}
+a, span {
+  font-size: 200%;
+}
+.loaded-menu {
+  color: $ww_ketchup;
+}
 h3,
 h5 {
   color: $white;
@@ -39,7 +88,7 @@ h5 {
 
 p {
   color: $white;
-  font-size: larger;
+  font-size: 130%;
 }
 
 .carousel-inner img {
@@ -58,6 +107,22 @@ p {
   background: $darkred;
 }
 
+
+.carousel-item {
+  padding-bottom: calc(2em + #{$css-padding});
+}
+.carousel-container {
+  margin-top: 5em;
+}
+.centered {
+  margin: 0 auto;
+}
+.hotdog-photo-container {
+  background-color: goldenrod;
+  color: white;
+}
+
+
 footer {
   background: $darkred;
   color: $white;
@@ -70,5 +135,50 @@ footer {
         color: $mustard;
       }
     }
+  }
+}
+
+/*-----------------------Menu Page-------------------------------------------*/
+
+.productList {
+                width: 700px;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+                padding: 5%;
+}
+
+.product {
+   .price {
+               float: right;
+          }
+        }
+
+h2 {
+              color: $green;
+}
+
+h3 {
+             padding-top:2%;
+             color:$darkred;
+}
+
+.dropdown-item{
+          font-weight: bold;
+          border-bottom: 1px dashed rgb(95, 117, 117);
+}
+
+.dropdown-item:hover{
+          background-color: $mustard;
+}
+
+/*----------------- Media Querey for phone size screen ----------------- */
+
+@media screen and (max-width: 479px) {
+  .dropdown-item {
+                   width: 40%;
+               }
+  .text-muted{
+    font-size: .75em;
   }
 }

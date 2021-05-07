@@ -4,28 +4,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weiner Works | Home</title>
+  <title>Weiner Works | Menu </title>
+  <link rel="shortcut icon" type="image/jpg" href="media/favicon.png"/>
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-  <header>
+    <header>
     <div class="text-center">
       <img class="img-fluid" src="media/crop-logo.png" alt="">
     </div>
 
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center navbar-dark bg-dark">
       <li class="nav-item">
         <a class="nav-link active" href="index.html">Home</a>
       </li>
+      <!----bootstrap dropdown menu element--->
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="menu.html" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#foodMenu">Hot Dogs</a>
-          <a class="dropdown-item" href="#beerMenu">Beer</a>
-          <a class="dropdown-item" href="#burgersMenu">Burgers</a>
-          <a class="dropdown-item" href="#sidesMenu">Sides</a>
-          <a class="dropdown-item" href="#drinksMenu">Drinks</a>
+          <a class="dropdown-item" href="menu.html#foodMenu">Hot Dogs</a>
+          <a class="dropdown-item" href="menu.html#beerMenu">Beer</a>
+          <a class="dropdown-item" href="menu.html#burgersMenu">Burgers</a>
+          <a class="dropdown-item" href="menu.html#sidesMenu">Sides</a>
+          <a class="dropdown-item" href="menu.html#drinksMenu">Drinks</a>
         </div>
       </li>
       <li class="nav-item">
@@ -36,148 +37,262 @@
       </li>
     </ul>
   </header>
-
   <main class="container p-4">
-    <section class="productList container">
-        <a id="beerMenu"><h2>Beer Menu</h2></a>
-        <h3>Ale</h3>
-        <div class="product">
-          <span class="dropdown-item ">Brown Ale<span class="price">$7</span></a>
+    <!----bootstrap jumbotron element--->
+    <article class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4"> Check out our $7.95 Specials! </h1>
+        <div class="row">
+         <hr class="my-4">
+        <div class="col">
+          <h2>German Dog </h2>
+            <span> Served with a beer, fries, and sauerkraut.</span>
+          <h2>Hot Diggidy Dog  </h2>
+            <span> Served with a beer, fries, and beans.</span>
+          </div>
+        <div class="col">
+          <img src="media/cupOfBeer.jpg" class="img-fluid float-right" alt="Cup of Beer">
         </div>
-        <div class="product ">
-          <span class="dropdown-item ">Blonde Ale<span class="price">$7</span></a>
+      </div>
+  </div>
+    </article>
+    <!---bootstrap card element ---->
+
+    <section class="container">
+        <a id="beerMenu">
+          <div class="col-lg-10 mx-auto col-12 text-center mb-3">
+            <h1 class="mt-0 text-primary">Beer Menu</h1>    
+          </div>
+        </a>
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Ale</h3>
+            <hr class="accent my-5">
         </div>
-        <div class="product">
-          <span class="dropdown-item">Pale Ale<span class="price">$5</span></a>
+        <div class="card-columns">
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold ">$7</span>
+               <h4 class="card-text">Brown Ale</h4>
+           </div>
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$7</span>
+               <h4 class="card-text">Blonde Ale</h4>
+           </div>
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$7</span>
+               <h4 class="card-text">Pale Ale</h4>
+           </div>
         </div>
-        <h3>Porter</h3>
-        <div class="product">
-          <span class="dropdown-item">Anchor Porter<span class="price">$6</span></a>
+        <div class="col-12 mt-4">
+           <h3 class="text-center">Porter</h3>
+           <hr class="accent my-5">
+       </div>
+       <div class="card-columns">
+          <div class="card card-body border border-danger shadow">
+              <span class="float-right font-weight-bold">$6</span>
+              <h4 class="card-text">Anchor Porter</h4>
+          </div>
+          <div class="card card-body border border-danger shadow">
+              <span class="float-right font-weight-bold">$4</span>
+              <h4 class="card-text">Pilsner</h4>
+          </div>
+          <div class="card card-body border border-danger shadow">
+              <span class="float-right font-weight-bold">$5</span>
+              <h4 class="card-text">Goose</h4>
+          </div>
+       </div>
+       <div class="col-12 mt-4">
+           <h3 class="text-center">Stout</h3>
+           <hr class="accent my-5">
+       </div>
+       <div class="card-columns">
+          <div class="card card-body border border-danger shadow">
+              <span class="float-right font-weight-bold">$6</span>
+              <h4 class="card-text">Praire Bomb</h4>
+          </div>
+          <div class="card card-body border border-danger shadow">
+              <span class="float-right font-weight-bold">$5</span>
+              <h4 class="card-text">Guiness</h4>
+          </div>
+          <div class="card card-body border border-danger shadow">
+              <span class="float-right font-weight-bold">$7</span>
+              <h4 class="card-text">Goose Island</h4>
+          </div>
+       </div>
+
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Lager</h3>
+            <hr class="accent my-5">
         </div>
-        <div class="product">
-          <span class="dropdown-item">Pilsner<span class="price">$4</span></span>
+        <div class="card-columns">
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$6</span>
+               <h4 class="card-text">Peroni</h4>
+           </div>
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$5</span>
+               <h4 class="card-text">Pilsner</h4>
+           </div>
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$7</span>
+               <h4 class="card-text">Helles</h4>
+           </div>
         </div>
-        <div class="product">
-          <span class="dropdown-item">Gose<span class="price">$5</span></span>
-        </div>
-        <h3>Stout</h3>
-        <div class="product">
-          <span class="dropdown-item">Praire Bomb<span class="price">$6</span></span>
-        </div>
-        <div class="product">
-          <span class=" dropdown-item">Guinness<span class="price">$5</span></span>
-        </div>
-        <div class="product">
-          <span class=" dropdown-item">Goose Island<span class="price">$7</span></span>
-        </div>
-        <h3>Lager</h3>
-        <div class="product">
-          <span class="dropdown-item">Peroni<span class="price">$6</span></span>
-        </div>
-        <div class="product">
-          <span class="dropdown-item">Pilsner<span class="price">$5</span></span>
-        </div>
-        <div class="product">
-          <span class="dropdown-item">Shiner Bock<span class="price">$6</span></span>
-        </div>
-        <div class="product">
-          <span class="dropdown-item">Helles<span class="price">$5</span></span>
-        </div>
-        <div class="product">
-          <span class=" dropdown-item">Scwarzbier<span class="price">$6</span></span>
+        <div class="card-columns">
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$7</span>
+               <h4 class="card-text">Shiner Bock</h4>
+           </div>
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$6</span>
+               <h4 class="card-text">Scwarzbier</h4>
+           </div>
+           <div class="card card-body border border-danger shadow">
+               <span class="float-right font-weight-bold">$7</span>
+               <h4 class="card-text">Doppelbock</h4>
+           </div>
         </div>
       </section>
-      <section class="productList container">
-      <a id="foodMenu"><h2>Food Menu</h2></a>
-      <h3>Hot Dogs</h3>
-      <div class="product">
-        <span class="dropdown-item">Hot Dog<span class="price">$3</span></span>
+      <section class="container">
+      <a id="foodMenu">
+        <div class="col-lg-10 mx-auto col-12 text-center mb-3">
+              <h1 class="mt-0 text-primary">Food Menu</h1>
+          </div>
+      </a>
+      <div class="col-12 mt-4">
+          <h3 class="text-center">Hot Dogs</h3>
+          <hr class="accent my-5">
       </div>
-      <div class="product">
-        <span class="dropdown-item" >Chili Cheese Dog<span class="price">$4.50</span></span>
+      <div class="card-columns">
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$3</span>
+             <h4 class="card-text">Hot Dog</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$4.50</span>
+             <h4 class="card-text">Chili Cheese Dog</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$5</span>
+             <h4 class="card-text">Beer Hotdg</h4>
+         </div>
       </div>
-      <div class="product">
-        <span class="dropdown-item">Beer Hotdog<span class="price">$4.50</span></span>
+      <div class="card-columns">
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$4.50</span>
+             <h4 class="card-text">Polish Dog</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$5.35</span>
+             <h4 class="card-text">Inch Dog</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$3</span>
+             <h4 class="card-text">Red Cabbage</h4>
+         </div>
       </div>
-      <div class="product">
-        <span class="dropdown-item" >Polish Dog<span class="price">$4</span></span>
+      <div class="card-columns">
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$4.50</span>
+             <h4 class="card-text">Kraut Dog</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$5.50</span>
+             <h4 class="card-text">Kraut & Cheese</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$3</span>
+             <h4 class="card-text">Grilled Hotdog</h4>
+         </div>
       </div>
-      <div class="product">
-        <span class="dropdown-item">Inch Dog<span class="price">$3</span></span>
-      </div>
-      <div class="product">
-        <span class=" dropdown-item" >Reg Cabbage<span class="price">$3</span></span>
-      </div>
-      <div class="product">
-        <span class="dropdown-item">Kraut Dog<span class="price">$5.35</span></span>
-      </div>
-      <div class="product">
-        <span class=" dropdown-item" >Kraut & Cheese<span class="price">$6.35</span></span>
-      </div>
-      <div class="product">
-        <span class=" dropdown-item">Grilled Hot Dog<span class="price">$3</span></span>
-      </div>
-      <div class="product">
-        <span class=" dropdown-item" >Mustard & Relish<span class="price">$4</span></span>
-      </div>
-      <div class="product">
-        <span class=" dropdown-item">Ketchup<span class="price">$4</span></span>
-      </div>
-      <div class="product">
-        <span class="dropdown-item" >Corn Dog<span class="price">$3.50</span></span>
+      <div class="card-columns">
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$6.50</span>
+             <h4 class="card-text">The Works</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$4.35</span>
+             <h4 class="card-text">Mustard & Relish</h4>
+         </div>
+         <div class="card card-body border border-danger shadow">
+             <span class="float-right font-weight-bold">$2</span>
+             <h4 class="card-text">Corndog</h4>
+         </div>
       </div>
 
-      <a id="sidesMenu"><h3>Sides</h3></a>
-      <div class="product">
-        <span class="dropdown-item">Fries<span class="price">$4</span></span>
+    <a id="burgersMenu">
+      <div class="col-12 mt-4">
+          <h3 class="text-center">Burgers</h3>
+          <hr class="accent my-5">
       </div>
-      <div class="product">
-        <span class="dropdown-item" >Chips<span class="price">$3</span></span>
+    </a>
+    <div class="card-columns">
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$6.05</span>
+           <h4 class="card-text">Single Patty</h4>
+       </div>
+       <div class="card card-body border border-danger">
+           <span class="float-right font-weight-bold">$7.95</span>
+           <h4 class="card-text">Double Patty</h4>
+       </div>
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$6.95</span>
+           <h4 class="card-text">Jalepeno Cheddar</h4>
+       </div>
+    </div>
+    <a id="sidesMenu">
+      <div class="col-12 mt-4">
+        <h3 class="text-center">Sides</h3>
+        <hr class="accent my-5">
+    </div></a>
+    <div class="card-columns">
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$4</span>
+           <h4 class="card-text">Fries</h4>
+       </div>
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$5</span>
+           <h4 class="card-text">Chili Cheese Fries</h4>
+       </div>
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$2</span>
+           <h4 class="card-text">Coleslaw</h4>
+       </div>
+    </div>
+    <div class="card-columns">
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$4</span>
+           <h4 class="card-text">Chips</h4>
+       </div>
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$3</span>
+           <h4 class="card-text">Beans</h4>
+       </div>
+       <div class="card card-body border border-danger shadow">
+           <span class="float-right font-weight-bold">$2</span>
+           <h4 class="card-text">Dipping Vegetables</h4>
+       </div>
+    </div>
+    <a id="drinksMenu">
+      <div class="col-12 mt-4">
+        <h3 class="text-center">Drinks</h3>
+        <h6 class="text-center "> $2-Sm, $3-Md, $3.75-Lg</h6>
+        <hr class="accent my-5">
+    </div></a>
+    <div class="card-columns">
+       <div class="card card-body border border-danger shadow">
+           <h4 class="card-text">Lemonade</h4>
+           <h6 class="small"> Reg. & Strawberry</p>
+       </div>
+       <div class="card card-body shadow border border-danger">
+           <h4 class="card-text">Soda</h4>
+           <h6 class="small"> Mtn. Dew, Sprite, Root Beer, Mr.Pibb</p>
+       </div>
+       <div class="card card-body border border-danger shadow">
+           <h4 class="card-text">Tea</h4>
+           <h6 class="small"> Sweet & Unsweet</p>
+       </div>      
       </div>
-      <div class="product">
-        <span class="dropdown-item">Coleslaw<span class="price">$3</span></span>
-      </div>
-      <div class="product">
-        <span class="dropdown-item" >Dipping Vegetables<span class="price">$5</span></span>
-      </div>
-
-    <a id="burgersMenu"><h3>Burgers</h3></a>
-    <div class="product">
-      <span class="dropdown-item">Single Patty<span class="price">$6.05</span></span>
-    </div>
-    <div class="product">
-      <span class="dropdown-item" >Double Patty<span class="price">$7.95</span></span>
-    </div>
-    <div class="product">
-      <span class="dropdown-item">Jalepeno Cheddar<span class="price">$6.95</span></span>
-    </div>
-    <div class="product">
-      <span class="dropdown-item" >Buffalo Burger<span class="price">$7.95</span></span>
-    </div>
-
-    <a id="drinksMenu"><h3>Drinks</h3></a>
-    <div class="product">
-      <span class=" dropdown-item" >Lemonade<span class="price">$2-Sm, $3.50-Lg</span></span>
-    </div>
-    <div class="product">
-      <span class="dropdown-item">Tea<span class="price">$2-Sm, $3.50-Lg</span></span>
-    </div>
-    <div class="dropdown-item">
-      <span>Soda:<span class="price">$2-Sm, $3.50-Lg</span></span><br>
-      <span class=sodaList> Mtn. Dew, Sprite, Root Beer, Mr. Pibb</span>
-
-    </div>
-
-
-    <h3>Specials</h3>
-    <div class="product">
-      <span class="name  dropdown-item">German Dog<span class="price">$5.95</span></span>
-    </div>
-    <div class="product">
-      <span class="name  dropdown-item">Hot Diggidy Dog<span class="price">$5.95</span></span>
-    </div>
    </section>
-
   </main>
 
   <footer class="p-2 text-center">
@@ -186,6 +301,17 @@
       <li class="nav-item">
         <a class="nav-link active" href="index.html">Home</a>
       </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="menu.html" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="menu.html#foodMenu">Hot Dogs</a>
+          <a class="dropdown-item" href="menu.html#beerMenu">Beer</a>
+          <a class="dropdown-item" href="menu.html#burgersMenu">Burgers</a>
+          <a class="dropdown-item" href="menu.html#sidesMenu">Sides</a>
+          <a class="dropdown-item" href="menu.html#drinksMenu">Drinks</a>
+          </div>
+
       <li class="nav-item">
         <a class="nav-link active" href="menu.html">Menu</a>
       </li>
@@ -197,7 +323,6 @@
       </li>
     </ul>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>

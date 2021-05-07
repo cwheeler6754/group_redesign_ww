@@ -1,3 +1,4 @@
+/*-------------SASS Variables for Menu------------*/
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7197,9 +7198,47 @@ main {
 
 .nav {
   font-size: larger;
+  background: #931009 !important; }
+
+.nav-item {
   background: #931009; }
-  .nav .nav-item .nav-link:hover {
-    color: #FFDB58; }
+
+.nav-link:hover {
+  background-color: #FFDB58;
+  color: #40221D; }
+
+.specials {
+  color: #00782C;
+  font-size: 300%;
+  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 1em; }
+
+.order-ahead {
+  color: #40221D; }
+
+.welcome-header {
+  color: #00782C; }
+
+.menu {
+  background-color: #FFDB58;
+  font-size: 180%;
+  color: #40221D; }
+
+.menu:hover {
+  background-color: #B83B4A; }
+
+.available {
+  color: #00782C; }
+
+.afforability {
+  text-align: center; }
+
+a, span {
+  font-size: 200%; }
+
+.loaded-menu {
+  color: #CC2522; }
 
 h3,
 h5 {
@@ -7207,7 +7246,7 @@ h5 {
 
 p {
   color: #ffffff;
-  font-size: larger; }
+  font-size: 130%; }
 
 .carousel-inner img {
   margin: auto; }
@@ -7221,6 +7260,19 @@ p {
 .progress-bar {
   background: #931009; }
 
+.carousel-item {
+  padding-bottom: calc(2em + 5em); }
+
+.carousel-container {
+  margin-top: 5em; }
+
+.centered {
+  margin: 0 auto; }
+
+.hotdog-photo-container {
+  background-color: goldenrod;
+  color: white; }
+
 footer {
   background: #931009;
   color: #ffffff; }
@@ -7228,3 +7280,35 @@ footer {
     background: #931009; }
     footer ul li a:hover {
       color: #FFDB58; }
+
+/*-----------------------Menu Page-------------------------------------------*/
+.productList {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  padding: 5%; }
+
+.product .price {
+  float: right; }
+
+h2 {
+  color: #5D814C; }
+
+h3 {
+  padding-top: 2%;
+  color: #931009; }
+
+.dropdown-item {
+  font-weight: bold;
+  border-bottom: 1px dashed #5f7575; }
+
+.dropdown-item:hover {
+  background-color: #FFDB58; }
+
+/*----------------- Media Querey for phone size screen ----------------- */
+@media screen and (max-width: 479px) {
+  .dropdown-item {
+    width: 40%; }
+  .text-muted {
+    font-size: .75em; } }
