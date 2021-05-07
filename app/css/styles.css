@@ -7220,6 +7220,20 @@ main {
 .welcome-header {
   color: #00782C; }
 
+.menu {
+  background-color: #FFDB58;
+  font-size: 180%;
+  color: #40221D; }
+
+.menu:hover {
+  background-color: #B83B4A; }
+
+.available {
+  color: #00782C; }
+
+.afforability {
+  text-align: center; }
+
 a, span {
   font-size: 200%; }
 
