@@ -4,34 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weiner Works | Home</title>
+  <title>Weiner Works | Menu </title>
   <link rel="shortcut icon" type="image/jpg" href="media/favicon.png"/>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
+    <header>
     <div class="text-center">
       <img class="img-fluid" src="media/crop-logo.png" alt="">
     </div>
 
-    <nav class="sticky-top">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="menu.html">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gallery.html">Gallery</a>
-        </li>
-      </ul>
-    </nav>
+    <ul class="nav justify-content-center navbar-dark bg-dark">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
+      <!----bootstrap dropdown menu element--->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="menu.html" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="menu.html#foodMenu">Hot Dogs</a>
+          <a class="dropdown-item" href="menu.html#beerMenu">Beer</a>
+          <a class="dropdown-item" href="menu.html#burgersMenu">Burgers</a>
+          <a class="dropdown-item" href="menu.html#sidesMenu">Sides</a>
+          <a class="dropdown-item" href="menu.html#drinksMenu">Drinks</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">Gallery</a>
+      </li>
+    </ul>
   </header>
-
   <main class="container p-4">
     <!----bootstrap jumbotron element--->
     <article class="jumbotron jumbotron-fluid">
@@ -51,21 +56,14 @@
       </div>
   </div>
     </article>
-    <!---bootstrap element ---->
+    <!---bootstrap card element ---->
 
     <section class="container">
         <a id="beerMenu">
-      <div class="col-lg-10 mx-auto col-12 text-center mb-3">
-            <h1 class="mt-0 text-primary">Beer Menu</h1>
-
-    <section class="productList container">
-        <a id="beerMenu"><h2>Beer Menu</h2></a>
-        <h3>Ale</h3>
-        <div class="product">
-          <span class="dropdown-item ">Brown Ale<span class="price">$7</span></a>
-
-        </div>
-      </a>
+          <div class="col-lg-10 mx-auto col-12 text-center mb-3">
+            <h1 class="mt-0 text-primary">Beer Menu</h1>    
+          </div>
+        </a>
         <div class="col-12 mt-4">
             <h3 class="text-center">Ale</h3>
             <hr class="accent my-5">
@@ -292,18 +290,8 @@
        <div class="card card-body border border-danger shadow">
            <h4 class="card-text">Tea</h4>
            <h6 class="small"> Sweet & Unsweet</p>
-       </div>
-    <a id="drinksMenu"><h3>Drinks</h3></a>
-    <div class="product">
-      <span class=" dropdown-item" >Lemonade<span class="price">$2-Sm, $3.50-Lg</span></span>
-    </div>
-    <div class="product">
-      <span class="dropdown-item">Tea<span class="price">$2-Sm, $3.50-Lg</span></span>
-    </div>
-    <div class="product">
-      <span class="dropdown-item">Soda:<span class="price">$2-Sm, $3.50-Lg</span></span><br>
-      <p class="text-muted"> Mtn. Dew, Sprite, Root Beer, Mr. Pibb</p>
-    </div>
+       </div>      
+      </div>
    </section>
   </main>
 
