@@ -14,7 +14,8 @@ $darkred: #931009;
 $brownorange: #C48D54;
 $green: #5D814C;
 $white: #ffffff;
-
+$ww_char-brown: #40221D;
+$css-padding: 5em;
 $background: #F1E4D6;
 $mustard: #FFDB58;
 $darkred: #931009;
@@ -24,41 +25,27 @@ $white: #ffffff;
 
 body {
   background: $background;
-
-
-$ww_char-brown: #40221D;
-$css-padding: 5em;
-
 }
-
 header {
   background: $white;
 }
-
 main {
-
   background: $brownorange;
-
-  background: #C48D54;
-
 }
 
 .nav {
   font-size: larger;
-
   background: $darkred !important;
-
-    .nav-item {
-
-  background: $darkred;
-
-  .nav-item {
-
-    .nav-link:hover {
-      color: $mustard;
-    }
-  }
 }
+.nav-item {
+  background: $darkred;
+}
+
+.nav-link:hover {
+  background-color: $mustard;
+  color: $ww_char-brown;
+}
+
 
 a, span {
   font-size: 200%;
@@ -77,13 +64,8 @@ h5 {
 }
 
 p {
-
   color: $white;
-  font-size: larger;
-
-  color: $ww_char-brown;
   font-size: 130%;
-
 }
 
 .carousel-inner img {

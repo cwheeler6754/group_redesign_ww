@@ -7198,14 +7198,14 @@ main {
 
 .nav {
   font-size: larger;
-
   background: #931009 !important; }
-  .nav .nav-item .nav-link:hover {
-    color: #FFDB58; }
 
+.nav-item {
   background: #931009; }
-  .nav .nav-item .nav-link:hover {
-    color: #FFDB58; }
+
+.nav-link:hover {
+  background-color: #FFDB58;
+  color: #40221D; }
 
 a, span {
   font-size: 200%; }
@@ -7218,19 +7218,13 @@ a, span {
 .loaded-menu {
   color: #CC2522; }
 
-
 h3,
 h5 {
   color: #ffffff; }
 
 p {
-
   color: #ffffff;
-  font-size: larger; }
-
-  color: #40221D;
   font-size: 130%; }
-
 
 .carousel-inner img {
   margin: auto; }
@@ -7243,7 +7237,6 @@ p {
 
 .progress-bar {
   background: #931009; }
-
 
 .carousel-item {
   padding-bottom: calc(2em + 5em); }
@@ -7258,7 +7251,6 @@ p {
   background-color: goldenrod;
   color: white; }
 
-
 footer {
   background: #931009;
   color: #ffffff; }
@@ -7266,7 +7258,6 @@ footer {
     background: #931009; }
     footer ul li a:hover {
       color: #FFDB58; }
-
 
 /*-----------------------Menu Page-------------------------------------------*/
 .productList {
@@ -7294,7 +7285,8 @@ h3 {
   background-color: #FFDB58; }
 
 /*----------------- Media Querey for phone size screen ----------------- */
-@media screen  (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .dropdown-item {
-    width: 40%; } }
-
+    width: 40%; }
+  .text-muted {
+    font-size: .75em; } }
