@@ -7207,13 +7207,21 @@ main {
   background-color: #FFDB58;
   color: #40221D; }
 
+.specials {
+  color: #00782C;
+  font-size: 300%;
+  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 1em; }
+
+.order-ahead {
+  color: #40221D; }
+
+.welcome-header {
+  color: #00782C; }
+
 a, span {
   font-size: 200%; }
-
-.specials {
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 2em; }
 
 .loaded-menu {
   color: #CC2522; }

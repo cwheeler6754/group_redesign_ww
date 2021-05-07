@@ -22,6 +22,7 @@ $darkred: #931009;
 $brownorange: #C48D54;
 $green: #5D814C;
 $white: #ffffff;
+$ww_darkgreen: #00782C;
 
 body {
   background: $background;
@@ -45,18 +46,24 @@ main {
   background-color: $mustard;
   color: $ww_char-brown;
 }
-
-
+.specials {
+  color: $ww_darkgreen;
+  font-size: 300%;
+  margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.order-ahead {
+  color: $ww_char-brown;
+}
+.welcome-header {
+  color: $ww_darkgreen;
+}
 a, span {
   font-size: 200%;
 }
-.specials {
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 2em;
-}
 .loaded-menu {
-  color: #CC2522;
+  color: $ww_ketchup;
 }
 h3,
 h5 {
