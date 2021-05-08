@@ -7207,6 +7207,11 @@ main {
   background-color: #FFDB58;
   color: #40221D; }
 
+.badge-danger {
+  padding: 2em;
+  font-size: 195%;
+  margin-bottom: 1em; }
+
 .specials {
   color: #00782C;
   font-size: 300%;
