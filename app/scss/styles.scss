@@ -48,10 +48,10 @@ main {
   background-color: $mustard;
   color: $ww_char-brown;
 }
-.badge-danger {
-  padding: 2em;
-  font-size: 195%;
-  margin-bottom: 1em; 
+.alert-warning {
+  font-size: 190%;
+  text-align: center;
+  background-color: rgb(242,222,222);
 }
 .specials {
   color: $ww_darkgreen;
