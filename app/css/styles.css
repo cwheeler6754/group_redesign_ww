@@ -7207,10 +7207,10 @@ main {
   background-color: #FFDB58;
   color: #40221D; }
 
-.badge-danger {
-  padding: 2em;
-  font-size: 195%;
-  margin-bottom: 1em; }
+.alert-warning {
+  font-size: 190%;
+  text-align: center;
+  background-color: #f2dede; }
 
 .specials {
   color: #00782C;
