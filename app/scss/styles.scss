@@ -48,6 +48,11 @@ main {
   background-color: $mustard;
   color: $ww_char-brown;
 }
+.alert-warning {
+  font-size: 190%;
+  text-align: center;
+  background-color: rgb(242,222,222);
+}
 .specials {
   color: $ww_darkgreen;
   font-size: 300%;
@@ -73,7 +78,7 @@ main {
   color: $ww_darkgreen;
 }
 .afforability {
-  text-align: center; 
+  text-align: center;
 }
 a, span {
   font-size: 200%;
